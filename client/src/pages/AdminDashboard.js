@@ -20,7 +20,7 @@ const AdminDashboard = () => {
     // Check if admin is logged in by trying to fetch user data
     fetchDashboardData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [navigate]);
+  }, []);
 
   const fetchDashboardData = async () => {
     try {

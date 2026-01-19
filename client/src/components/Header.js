@@ -10,8 +10,13 @@ const Header = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Check if user is logged in by trying to fetch user data
-    checkAuthStatus();
+    // Check if user is logged in only on component mount
+    const token = localStorage.getItem('token');
+    if (token) {
+      checkAuthStatus();
+    } else {
+      setIsLoggedIn(false);
+    }
   }, []);
 
   const checkAuthStatus = async () => {
