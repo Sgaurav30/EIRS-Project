@@ -1,7 +1,6 @@
 {
-  "buildCommand": "cd client && npm run build",
+  "buildCommand": "cd client && npm install && npm run build",
   "outputDirectory": "client/build",
-  "installCommand": "npm install --legacy-peer-deps",
   "framework": "create-react-app",
   "rewrites": [
     {
@@ -12,8 +11,5 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "env": {
-    "REACT_APP_API_URL": "/api"
-  }
+  ]
 }
