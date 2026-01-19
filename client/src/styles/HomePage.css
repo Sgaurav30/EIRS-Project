@@ -31,9 +31,6 @@
   max-width: 800px;
   padding: var(--spacing-2xl);
   animation: slideInUp 1s ease-out;
-  background-color: rgba(0, 0, 0, 0.15);
-  border-radius: 1rem;
-  backdrop-filter: blur(2px);
 }
 
 .hero-title {

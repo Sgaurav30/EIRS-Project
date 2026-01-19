@@ -42,7 +42,8 @@
 /* Contact Info Section */
 .contact-info-section h2 {
   margin-bottom: var(--spacing-lg);
-  color: var(--text-dark);
+  color: #1f2937;
+  font-weight: 800;
 }
 
 .info-cards {
@@ -85,7 +86,9 @@
 
 .info-card p {
   margin-bottom: var(--spacing-sm);
-  color: var(--text-light);
+  color: #4b5563;
+  font-weight: 500;
+  line-height: 1.7;
 }
 
 .hours {
@@ -96,7 +99,8 @@
 /* Contact Form Section */
 .contact-form-section h2 {
   margin-bottom: var(--spacing-lg);
-  color: var(--text-dark);
+  color: #1f2937;
+  font-weight: 800;
 }
 
 .contact-form-section {
