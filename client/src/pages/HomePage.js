@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaVideo, FaLightbulb, FaShieldAlt, FaFingerprint, FaPhone, FaRobot, FaFire } from 'react-icons/fa';
-import { productService, serviceService } from '../services/api';
+import { serviceService } from '../services/api';
 import '../styles/HomePage.css';
 
 const HomePage = () => {
