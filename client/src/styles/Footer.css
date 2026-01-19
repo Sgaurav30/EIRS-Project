@@ -122,6 +122,36 @@
   max-height: 50px;
 }
 
+/* Certifications */
+.certifications {
+  margin-top: var(--spacing-lg);
+}
+
+.certifications h4 {
+  margin-bottom: var(--spacing-md);
+  font-size: 0.95rem;
+}
+
+.certification-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: var(--spacing-md);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.certification-badge img {
+  max-width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.certification-badge img:hover {
+  transform: scale(1.05);
+}
+
 /* Footer Bottom */
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
