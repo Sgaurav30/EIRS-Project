@@ -118,6 +118,7 @@ const Header = () => {
               <>
                 <Link to="/admin/dashboard" className="nav-link admin-link">Dashboard</Link>
                 <Link to="/admin/products" className="nav-link admin-link">Manage Products</Link>
+                <Link to="/admin/services" className="nav-link admin-link">Manage Services</Link>
                 <Link to="/admin/enquiries" className="nav-link admin-link">Manage Enquiries</Link>
               </>
             )}
@@ -159,6 +160,9 @@ const Header = () => {
                 </Link>
                 <Link to="/admin/products" className="nav-link-mobile admin-link" onClick={() => setIsMobileMenuOpen(false)}>
                   Manage Products
+                </Link>
+                <Link to="/admin/services" className="nav-link-mobile admin-link" onClick={() => setIsMobileMenuOpen(false)}>
+                  Manage Services
                 </Link>
                 <Link to="/admin/enquiries" className="nav-link-mobile admin-link" onClick={() => setIsMobileMenuOpen(false)}>
                   Manage Enquiries
